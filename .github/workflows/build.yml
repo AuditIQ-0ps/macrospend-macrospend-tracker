@@ -26,7 +26,6 @@ jobs:
 
       - name: Build Tauri App
         run: |
-          cd macrospend-macrospend-tracker
           npm install
           npx tauri build
         env:
