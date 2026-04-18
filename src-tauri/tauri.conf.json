@@ -18,11 +18,9 @@
         "visible": false,
         "decorations": true,
         "alwaysOnTop": false
-      }
     ],
     "security": {
       "csp": "default-src 'self'; script-src 'self' https://esm.sh; style-src 'self' 'unsafe-inline'; connect-src 'self' https://bhluusqyqetongajeprh.supabase.co"
-    }
   },
   "bundle": {
   "active": true,
@@ -38,17 +36,8 @@
   "windows": {
     "wix": {
       "language": "en-US"
-    }
   },
   "createUpdaterArtifacts": true
-},
-    },
-    "windows": {
-      "wix": {
-        "language": "en-US"
-      }
-    },
-    "createUpdaterArtifacts": true
   },
   "plugins": {
     "updater": {
@@ -62,7 +51,6 @@
     "deep-link": {
       "desktop": {
         "schemes": ["macrospend"]
-      }
     },
     "autostart": {
       "macosLogin": true
