@@ -18,7 +18,6 @@
         "visible": false,
         "decorations": true,
         "alwaysOnTop": false
-    ],
     "security": {
       "csp": "default-src 'self'; script-src 'self' https://esm.sh; style-src 'self' 'unsafe-inline'; connect-src 'self' https://bhluusqyqetongajeprh.supabase.co"
   },
