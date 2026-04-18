@@ -27,7 +27,7 @@
   "bundle": {
     "active": true,
     "targets": ["dmg", "msi", "app"],
-    "icon": [],
+  },
     "category": "Productivity",
     "shortDescription": "MacroSpend desktop tracker",
     "longDescription": "Privacy-first software usage tracker. Captures only active app name and window title.",
