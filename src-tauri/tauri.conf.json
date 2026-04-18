@@ -27,7 +27,6 @@
   "bundle": {
     "active": true,
     "targets": ["dmg", "msi", "app"],
-  }
     "category": "Productivity",
     "shortDescription": "MacroSpend desktop tracker",
     "longDescription": "Privacy-first software usage tracker. Captures only active app name and window title.",
@@ -41,8 +40,7 @@
       }
     },
     "createUpdaterArtifacts": true
-  }
-  ,
+  },
   "plugins": {
     "updater": {
       "active": true,
@@ -61,3 +59,4 @@
       "macosLogin": true
     }
   }
+}
