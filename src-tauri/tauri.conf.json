@@ -18,25 +18,29 @@
         "visible": false,
         "decorations": true,
         "alwaysOnTop": false
+      }
+    ],
     "security": {
       "csp": "default-src 'self'; script-src 'self' https://esm.sh; style-src 'self' 'unsafe-inline'; connect-src 'self' https://bhluusqyqetongajeprh.supabase.co"
+    }
   },
   "bundle": {
-  "active": true,
-  "targets": ["dmg", "msi", "app"],
-  "icon": [],
-  "category": "Productivity",
-  "shortDescription": "MacroSpend desktop tracker",
-  "longDescription": "Privacy-first software usage tracker. Captures only active app name and window title.",
-  "macOS": {
-    "minimumSystemVersion": "10.15",
-    "exceptionDomain": "bhluusqyqetongajeprh.supabase.co"
-  },
-  "windows": {
-    "wix": {
-      "language": "en-US"
-  },
-  "createUpdaterArtifacts": true
+    "active": true,
+    "targets": ["dmg", "msi", "app"],
+    "icon": [],
+    "category": "Productivity",
+    "shortDescription": "MacroSpend desktop tracker",
+    "longDescription": "Privacy-first software usage tracker. Captures only active app name and window title.",
+    "macOS": {
+      "minimumSystemVersion": "10.15",
+      "exceptionDomain": "bhluusqyqetongajeprh.supabase.co"
+    },
+    "windows": {
+      "wix": {
+        "language": "en-US"
+      }
+    },
+    "createUpdaterArtifacts": true
   },
   "plugins": {
     "updater": {
@@ -50,6 +54,7 @@
     "deep-link": {
       "desktop": {
         "schemes": ["macrospend"]
+      }
     },
     "autostart": {
       "macosLogin": true
