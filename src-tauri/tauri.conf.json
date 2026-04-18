@@ -22,31 +22,26 @@
     ],
     "security": {
       "csp": "default-src 'self'; script-src 'self' https://esm.sh; style-src 'self' 'unsafe-inline'; connect-src 'self' https://bhluusqyqetongajeprh.supabase.co"
-    },
-    "trayIcon": {
-      "id": "main",
-      "iconPath": "icons/tray.png",
-      "iconAsTemplate": true,
-      "menuOnLeftClick": false,
-      "tooltip": "MacroSpend Tracker"
     }
   },
   "bundle": {
-    "active": true,
-    "targets": ["dmg", "msi", "app"],
-    "icon": [
-      "icons/32x32.png",
-      "icons/128x128.png",
-      "icons/128x128@2x.png",
-      "icons/icon.icns",
-      "icons/icon.ico"
-    ],
-    "category": "Productivity",
-    "shortDescription": "MacroSpend desktop tracker",
-    "longDescription": "Privacy-first software usage tracker. Captures only active app name and window title. No keystrokes, no screenshots.",
-    "macOS": {
-      "minimumSystemVersion": "10.15",
-      "exceptionDomain": "bhluusqyqetongajeprh.supabase.co"
+  "active": true,
+  "targets": ["dmg", "msi", "app"],
+  "icon": [],
+  "category": "Productivity",
+  "shortDescription": "MacroSpend desktop tracker",
+  "longDescription": "Privacy-first software usage tracker. Captures only active app name and window title.",
+  "macOS": {
+    "minimumSystemVersion": "10.15",
+    "exceptionDomain": "bhluusqyqetongajeprh.supabase.co"
+  },
+  "windows": {
+    "wix": {
+      "language": "en-US"
+    }
+  },
+  "createUpdaterArtifacts": true
+},
     },
     "windows": {
       "wix": {
