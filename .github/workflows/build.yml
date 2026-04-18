@@ -25,7 +25,10 @@ jobs:
         run: npm install
 
       - name: Build Tauri App
-        run: npx tauri build
+        run: |
+          cd macrospend-macrospend-tracker
+          npm install
+          npx tauri build
         env:
           TAURI_SIGNING_PRIVATE_KEY: ${{ secrets.TAURI_SIGNING_PRIVATE_KEY }}
           TAURI_SIGNING_PRIVATE_KEY_PASSWORD: ${{ secrets.TAURI_SIGNING_PRIVATE_KEY_PASSWORD }}
