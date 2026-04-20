@@ -53,10 +53,6 @@
     "deep-link": {
       "desktop": {
         "schemes": ["macrospend"]
-      }
-    },
-    "autostart": {
-      "macosLogin": true
     }
   }
 }
