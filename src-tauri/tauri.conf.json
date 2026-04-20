@@ -43,7 +43,7 @@
   },
   "plugins": {
     "updater": {
-      "active": true,
+      "active": false,
       "endpoints": [
         "https://github.com/REPLACE_ORG/macrospend-tracker/releases/latest/download/latest.json"
       ],
