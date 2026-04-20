@@ -53,6 +53,7 @@
     "deep-link": {
       "desktop": {
         "schemes": ["macrospend"]
+      }
     }
   }
 }
